@@ -110,6 +110,12 @@
 					<h1>Contatos</h1>
 					<div id="c-left">
 						<img src="imgs/caderno.png" />
+						<form action="#" autocomplete="on">
+						  First name:<input type="text" name="fname"><br>
+						  Last name: <input type="text" name="lname"><br>
+						  E-mail: <input type="email" name="email" autocomplete="off"><br>
+						  <input type="submit">
+						</form> 
 					</div>
 					<div id="c-right">
 						<div id="texto-contatos"></div>

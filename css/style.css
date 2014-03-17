@@ -4,12 +4,14 @@ body{
 @font-face
 {
 	font-family: Homestead-Regular;
-	src: url(../fonts/Homestead-Regular.ttf);
+	src: url(../fonts/Homestead-Regular.ttf),
+		 url(../fonts/Homestead-Regular.eot);
 }
 @font-face
 {
 	font-family: Snickles;
-	src: url(../fonts/Snickles.ttf);
+	src: url(../fonts/Snickles.ttf),
+		 url(../fonts/Snickles.eot);
 }
 header{
 	height: 392px;
@@ -242,6 +244,19 @@ social>a:active,
 }
 #c-left>img{
 	margin-left: -40px;
+	position: absolute;
+}
+#c-left>form{
+	z-index: 80;
+	position: absolute;
+	margin-top: 90px;
+	margin-left: 80px;
+	font-size: 22px;
+	font-family: Snickles;
+}
+#c-left>form>input{
+	border: none;
+	background: none;
 }
 #c-right{
 	width: 49%;

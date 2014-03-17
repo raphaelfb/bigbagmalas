@@ -1,0 +1,257 @@
+body{
+	margin: 0px;
+}
+@font-face
+{
+	font-family: Homestead-Regular;
+	src: url(../fonts/Homestead-Regular.ttf);
+}
+@font-face
+{
+	font-family: Snickles;
+	src: url(../fonts/Snickles.ttf);
+}
+header{
+	height: 392px;
+	background-color: #323232;
+}
+h1{
+	font-family: Snickles;
+	font-size: 34pt;
+	color: #CC2228;
+	font-weight: normal;
+}
+h2{
+	font-family: Calibri;
+	font-size: 11pt;
+	font-weight: normal;
+}
+p{
+	margin-bottom: -10px;
+}
+.content-interno{
+	width: 770px;
+	margin:0 auto;
+}
+#content{
+	width: 940px;
+	height: 4050px;
+   	margin:0 auto;
+   	background-image: url('../imgs/bg.jpg');
+}
+#top{
+	position: relative;
+	height: 162px;
+	color: #ffffff;
+}
+#cont-header{
+	position: absolute;
+	bottom: 35px;
+	width: 100%;
+	height: 107px;
+}
+social{
+	float: right; 
+	margin-top: 5px;
+	font-family: Homestead-Regular;
+	font-size: 14px;
+}
+#insta{
+	float: right;
+}
+#menu-header{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 35px;
+	font-family: Homestead-Regular;
+	font-size: 16px;
+}
+#menu{
+	text-align:	justify;
+	margin-top: 7px;
+}
+social>a:link,
+social>a:visited, 
+social>a:active,
+#menu>a:link,
+#menu>a:visited, 
+#menu>a:active{
+	margin: 5px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#img-praia{
+	margin-bottom: 0px;
+	height: 230px;
+	background-image: url('../imgs/img-praia.jpg');
+}
+#banner{
+	height: 287px;
+}
+#slider{
+	padding-top: 16px;
+}
+.bxslider{
+	margin: 0px;
+	margin-left: -40px;
+}
+.bx-wrapper {
+	/*border-top: 1px black solid;
+	border-bottom: 1px black solid;*/
+}
+#quemsomos{
+	height: 512px;
+}
+#hr{
+	padding-top: 10px;
+	color: black;
+}
+.anuncio{
+	margin-top: 2px;
+	width: 379px;
+	height: 125px;
+	border: 1px solid black;
+}
+#anuncio1{
+	float: left;
+}
+#anuncio2{
+	float: right;
+}
+#qs-conteudo{
+	width: 386px;
+	height: 345px;
+	float: left;
+}
+#qs-titulo>h1{
+	margin-bottom: 0px;
+	margin-top: 20px;
+}
+#botons{
+	width: 380px;
+	height: 345px;
+	float: left;
+}
+#botons>img{
+	margin-top: -31px;
+	margin-left: 12px;
+}
+#marcas{
+	height: 166px;
+}
+#nossaslojas{
+	height: 650px;
+}
+#nossaslojas>h1{
+	margin-top: 0px;
+	padding-top: 10px;
+	margin-bottom: 0px;
+	padding-left: 5px;
+}
+#mapa{
+	margin-left: -10px;
+	position: absolute;
+}
+#map{
+	width: 742px;
+	height: 312px;
+	position: relative;
+	margin-top: 42px;
+	margin-left: 18px;
+}
+#enderecos {
+	width: 768px;
+	height: 170px;
+	border: 1px solid black;
+	margin-top: 57px;
+}
+#bolsasmalas{
+	height: 697px;
+}
+#bm-left{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+#bm-left>h1{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 20px;
+	padding-left: 5px;
+}
+#bm-left>img{
+	margin-left: -85px;
+	margin-top: -11px;
+}
+#bm-right{
+	float: right;
+	width: 50%;
+	height: 100%;
+}
+#bm-right>h1{
+	margin-top: 0px;	
+	margin-bottom: -5px;
+	text-align: right;
+}	
+#bm-right>img{
+	margin-left: 10px;
+}
+#mochilas{
+	height: 422px;
+}
+#m-conteudo>h1{
+	text-align: center;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-top: 15px;
+}
+#img-produtos{
+	width: 770px;
+	height: 249px;
+	border: 1px solid black;
+}
+#acessoriosekits{
+	height: 297px;
+}
+#aek>h1{
+	margin-top: 0;
+	margin-bottom: 10px;
+	padding-top: 15px;
+	padding-left: 5px;
+}
+#aek-produtos{
+	width: 770px;
+	height: 185px;
+	border: 1px solid black;
+}
+#contatos{
+	height: 628px;
+}
+#c-conteudo>h1{
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 10px;
+	padding-top: 15px;
+	padding-left: 5px;
+}
+#c-left{
+	width: 50%;
+	height: 504px;
+	float: left;
+}
+#c-left>img{
+	margin-left: -40px;
+}
+#c-right{
+	width: 49%;
+	height: 504px;
+	float: right;
+	border: 1px solid black;
+}
+/*chrome1+ */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	#menu-header {
+		font-size: 15px;
+	}
+}

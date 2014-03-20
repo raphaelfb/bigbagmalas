@@ -246,6 +246,10 @@ social>a:active,
 	margin-left: -40px;
 	position: absolute;
 }
+#sombra{
+	z-index: 9999;
+	visibility: hidden;
+}
 #c-left>form{
 	z-index: 80;
 	position: absolute;
@@ -254,9 +258,18 @@ social>a:active,
 	font-size: 22px;
 	font-family: Snickles;
 }
-#c-left>form>input{
+#c-left>form>input,
+#c-left>form>textarea{
 	border: none;
 	background: none;
+}
+#c-left>form>textarea{
+	margin-top: 8px;
+}
+#c-left>form>#botao{
+	width: 104px;
+	height: 30px;
+	background-image: url(../imgs/botao.png)
 }
 #c-right{
 	width: 49%;

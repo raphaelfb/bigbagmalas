@@ -20,7 +20,7 @@ $(document).ready(function(){
     lng: -43.182893,
     title: 'BigBag Botafogo',
     infoWindow: {
-      content: '<p>Loja de Botafogo</p>'
+      content: 'Loja de Botafogo'
     }
   });
   map.addMarker({
@@ -28,7 +28,7 @@ $(document).ready(function(){
     lng: -43.202033,
     title: 'BigBag Ipanema',
     infoWindow: {
-      content: '<p>Loja de Ipanema</p>'
+      content: 'Loja de Ipanema'
     }
   });
   map.addMarker({
@@ -36,7 +36,7 @@ $(document).ready(function(){
     lng: -43.179838,
     title: 'BigBag Centro',
     infoWindow: {
-      content: '<p>Loja do Centro</p>'
+      content: 'Loja do Centro'
     }
   });
 
@@ -44,6 +44,14 @@ $(document).ready(function(){
     $('html, body').animate({
         scrollTop: $( $(this).attr('href') ).offset().top
     }, 500);
+    if($(this).attr('href') == '#contatos'){
+      $('#sombra').css('visibility', 'visible');
+    }
     return false;
+  });
+
+  $('#sombra').click(function(){
+      $(this).css('visibility', 'hidden');
+      
   });
 });

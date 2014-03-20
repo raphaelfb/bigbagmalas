@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>BigBag Malas</title>
-
+<link href="imgs/favicon.ico" rel="icon" type="image/x-icon" />
 <link href="css/jquery.bxslider.css" rel="stylesheet" />
 <link rel="stylesheet" type="text/css" href="css/style.css">
 
@@ -110,11 +110,13 @@
 					<h1>Contatos</h1>
 					<div id="c-left">
 						<img src="imgs/caderno.png" />
+						<img id="sombra" src="imgs/sombra-caderno.png" />
 						<form action="#" autocomplete="on">
-						  First name:<input type="text" name="fname"><br>
-						  Last name: <input type="text" name="lname"><br>
-						  E-mail: <input type="email" name="email" autocomplete="off"><br>
-						  <input type="submit">
+						  <label>Nome: </label><input type="text" name="nome" placeholder="Preencha aqui"><br>
+						  <label>Telefone: </label><input type="text" name="telefone" placeholder="aqui também"><br>
+						  <label>Email: </label><input type="email" name="email" autocomplete="off" placeholder="aqui com seu email"><br>
+						  <textarea rows="6" cols="25" name="texto" placeholder="e aqui com a mensagem que deseja nos enviar."></textarea><br>
+						  <input id="botao" type="submit">
 						</form> 
 					</div>
 					<div id="c-right">
